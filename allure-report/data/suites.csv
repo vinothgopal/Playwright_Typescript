@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","4686","Login and Logout Test","chromium","Sun Sep 28 15:38:02 IST 2025","passed","Sun Sep 28 15:38:06 IST 2025","","e2eTest.spec.ts","",""

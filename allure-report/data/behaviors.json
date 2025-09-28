@@ -1,0 +1,21 @@
+{
+  "uid": "b1a8273437954620fa374b796ffaacdd",
+  "name": "behaviors",
+  "children": [
+    {
+      "name": "Login and Logout Test",
+      "uid": "40c4dc77d55dbc3d",
+      "parentUid": "b1a8273437954620fa374b796ffaacdd",
+      "status": "passed",
+      "time": { "start": 1759054082126, "stop": 1759054086812, "duration": 4686 },
+      "flaky": false,
+      "newFailed": false,
+      "newPassed": false,
+      "newBroken": false,
+      "retriesCount": 1,
+      "retriesStatusChange": false,
+      "parameters": ["chromium"],
+      "tags": ["sanity"]
+    }
+  ]
+}

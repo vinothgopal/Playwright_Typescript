@@ -1,0 +1,9 @@
+[
+  {
+    "uid": "40c4dc77d55dbc3d",
+    "name": "Login and Logout Test",
+    "time": { "start": 1759054082126, "stop": 1759054086812, "duration": 4686 },
+    "status": "passed",
+    "severity": "normal"
+  }
+]

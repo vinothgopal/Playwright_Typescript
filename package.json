@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test:sanity": "npx playwright test --grep @sanity",
+    "test:sanity:headed": "npx playwright test --grep @sanity --headed",
+    "test:regression": "npx playwright test --grep @regression",
     "test": "playwright test",
     "build": "tsc",
     "lint": "eslint . --ext .ts",

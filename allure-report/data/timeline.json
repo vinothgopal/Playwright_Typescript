@@ -1,0 +1,54 @@
+{
+  "uid": "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name": "timeline",
+  "children": [
+    {
+      "name": "LAPTOP-RBNKKBOV",
+      "children": [
+        {
+          "name": "pid-1416-worker-0",
+          "children": [
+            {
+              "name": "Login and Logout Test",
+              "uid": "40c4dc77d55dbc3d",
+              "parentUid": "26f489d739d9c9d85b17df4cc48f8d91",
+              "status": "passed",
+              "time": { "start": 1759054082126, "stop": 1759054086812, "duration": 4686 },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 1,
+              "retriesStatusChange": false,
+              "parameters": ["chromium"],
+              "tags": ["sanity"]
+            }
+          ],
+          "uid": "26f489d739d9c9d85b17df4cc48f8d91"
+        },
+        {
+          "name": "pid-5628-worker-0",
+          "children": [
+            {
+              "name": "Login and Logout Test",
+              "uid": "e1b072abbb5099dd",
+              "parentUid": "ff9ba29a1f576c77778c8978f2d78fc4",
+              "status": "passed",
+              "time": { "start": 1759054054692, "stop": 1759054064159, "duration": 9467 },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 0,
+              "retriesStatusChange": false,
+              "parameters": ["chromium"],
+              "tags": ["sanity"]
+            }
+          ],
+          "uid": "ff9ba29a1f576c77778c8978f2d78fc4"
+        }
+      ],
+      "uid": "70aa498d417693dd9aa777687814d372"
+    }
+  ]
+}

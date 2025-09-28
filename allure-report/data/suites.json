@@ -1,0 +1,33 @@
+{
+  "uid": "98d3104e051c652961429bf95fa0b5d6",
+  "name": "suites",
+  "children": [
+    {
+      "name": "chromium",
+      "children": [
+        {
+          "name": "e2eTest.spec.ts",
+          "children": [
+            {
+              "name": "Login and Logout Test",
+              "uid": "40c4dc77d55dbc3d",
+              "parentUid": "dc45b30e65af9722ada8298518c56284",
+              "status": "passed",
+              "time": { "start": 1759054082126, "stop": 1759054086812, "duration": 4686 },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 1,
+              "retriesStatusChange": false,
+              "parameters": ["chromium"],
+              "tags": ["sanity"]
+            }
+          ],
+          "uid": "dc45b30e65af9722ada8298518c56284"
+        }
+      ],
+      "uid": "36c900977e1d8b81a2c6893cc82bfc01"
+    }
+  ]
+}
