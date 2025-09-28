@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  playwright:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+    # Overridden by Jenkins with `--entrypoint`
+    command: npm run test
