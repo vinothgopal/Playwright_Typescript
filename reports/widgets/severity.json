@@ -1,0 +1,23 @@
+[
+  {
+    "uid": "10b7b5432f7f1981",
+    "name": "validate API response against schema",
+    "time": { "start": 1759166367776, "stop": 1759166368674, "duration": 898 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "785c78ac6b57b17d",
+    "name": "Update booking",
+    "time": { "start": 1759166367778, "stop": 1759166370104, "duration": 2326 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "fd722e51712433d8",
+    "name": "Login and Logout Test",
+    "time": { "start": 1759166109060, "stop": 1759166113337, "duration": 4277 },
+    "status": "passed",
+    "severity": "normal"
+  }
+]

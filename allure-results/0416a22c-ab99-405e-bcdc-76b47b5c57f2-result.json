@@ -1,0 +1,157 @@
+{
+  "uuid": "0416a22c-ab99-405e-bcdc-76b47b5c57f2",
+  "name": "Update booking",
+  "historyId": "539f7807c2b61f89c3f477cee7cdf264:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "failed",
+  "statusDetails": {
+    "message": "TypeError: apiRequestContext.post: Invalid URL",
+    "trace": "TypeError: apiRequestContext.post: Invalid URL\n    at BookingService.createBooking (D:\\pw\\Playwright_Typescript\\services\\BookingService.ts:11:36)\n    at D:\\pw\\Playwright_Typescript\\tests\\api_tests\\api_e2eTest.spec.ts:7:50"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create request context",
+              "start": 1759166044302,
+              "uuid": "1abd0e22-9c31-43f2-8830-370d585377df",
+              "stop": 1759166044311
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"request\"",
+          "start": 1759166044297,
+          "uuid": "f53bf672-147a-4a3b-a59e-7a8b4a7ae131",
+          "stop": 1759166044313
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"bookingService\"",
+          "start": 1759166044314,
+          "uuid": "9055da09-f469-4ee0-b45e-c6c68e65727c",
+          "stop": 1759166044315
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"testData\"",
+          "start": 1759166044316,
+          "uuid": "944ae0ad-8bbc-41fb-9113-f5333d1ccd5b",
+          "stop": 1759166044316
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1759166044259,
+      "uuid": "877871e8-e74e-4d55-8f62-41b9c08d5298",
+      "stop": 1759166044316
+    },
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "TypeError: apiRequestContext.post: Invalid URL",
+        "trace": "TypeError: apiRequestContext.post: Invalid URL\n    at BookingService.createBooking (D:\\pw\\Playwright_Typescript\\services\\BookingService.ts:11:36)\n    at D:\\pw\\Playwright_Typescript\\tests\\api_tests\\api_e2eTest.spec.ts:7:50"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1759166044323,
+      "name": "POST \"/booking\"",
+      "uuid": "c703eb36-8565-4123-9c93-e40427c784da",
+      "stop": 1759166044331
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"testData\"",
+          "start": 1759166044333,
+          "uuid": "f198ec5b-4ca5-42d6-b563-5f46ac659684",
+          "stop": 1759166044334
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"bookingService\"",
+          "start": 1759166044334,
+          "uuid": "f67b14c9-7d0d-4192-a14e-b7450b5395e6",
+          "stop": 1759166044334
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"request\"",
+          "start": 1759166044334,
+          "uuid": "6ecf461e-8394-4871-aaea-d4bba66edd68",
+          "stop": 1759166044341
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1759166044332,
+      "uuid": "85c84ae3-f9b6-4cef-96f6-11ca548dbcc0",
+      "stop": 1759166044356
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "api_tests.api_e2eTest.spec.ts" },
+    { "name": "titlePath", "value": " > chromium > api_tests\\api_e2eTest.spec.ts" },
+    { "name": "host", "value": "LAPTOP-RBNKKBOV" },
+    { "name": "thread", "value": "pid-7616-worker-0" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "api_tests\\api_e2eTest.spec.ts" }
+  ],
+  "links": [],
+  "start": 1759166044252,
+  "testCaseId": "539f7807c2b61f89c3f477cee7cdf264",
+  "fullName": "api_tests/api_e2eTest.spec.ts:4:1",
+  "titlePath": ["api_tests", "api_e2eTest.spec.ts"],
+  "stop": 1759166044301
+}

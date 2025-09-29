@@ -44,6 +44,32 @@ test("Login test @sanity", async ({ page }) => {
 });
 ```
 
+### 🚀 Common Test Scripts
+
+- Run API tests:
+
+  ```bash
+  npm run test:api
+  ```
+
+- Run Sanity tests (headless):
+
+  ```bash
+  npm run test:sanity
+  ```
+
+- Run Sanity tests (headed):
+
+  ```bash
+  npm run test:sanity:headed
+  ```
+
+- Run Regression tests:
+
+  ```bash
+  npm run test:regression
+  ```
+
 ### 🧼 Format Code
 
 ```bash
@@ -51,6 +77,49 @@ npm run format
 ```
 
 Formats `.ts`, `.json`, and related files using Prettier.
+
+---
+
+### 📊 Run Tests with Allure Reporting
+
+To generate test results using the Allure reporter:
+
+```bash
+npx playwright test --reporter=line,allure-playwright
+```
+
+This will create results in the `./allure-results` directory.
+
+### 🔍 View Allure Report
+
+Generate and open the Allure report:
+
+```bash
+npx allure generate ./allure-results --clean -o ./reports
+npx allure open ./reports
+```
+
+> 💡 Make sure the `allure-playwright` and `@shelex/allure-commandline` packages are installed:
+>
+> ```bash
+> npm install -D allure-playwright @shelex/allure-commandline
+> ```
+
+You can also add scripts in `package.json` for convenience:
+
+```json
+"scripts": {
+  "test:allure": "npx playwright test --reporter=line,allure-playwright",
+  "allure:report": "npx allure generate ./allure-results --clean -o ./reports && npx allure open ./reports"
+}
+```
+
+Then simply run:
+
+```bash
+npm run test:allure
+npm run allure:report
+```
 
 ---
 
@@ -165,6 +234,7 @@ The pipeline will run tests accordingly inside Docker and publish reports.
 - [dotenv](https://www.npmjs.com/package/dotenv)
 - [Docker](https://www.docker.com/)
 - [SOPS (for environment encryption)](https://github.com/mozilla/sops)
+- [Allure Report](https://docs.qameta.io/allure/)
 - Jenkins for CI/CD
 
 ---

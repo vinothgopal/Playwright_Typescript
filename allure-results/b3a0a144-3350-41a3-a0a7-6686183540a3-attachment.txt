@@ -1,0 +1,8 @@
+Updated Booking: {
+  firstname: 'vinoth',
+  lastname: 'go',
+  totalprice: 121,
+  depositpaid: true,
+  bookingdates: { checkin: '2018-01-01', checkout: '2019-01-01' },
+  additionalneeds: 'Breakfast'
+}

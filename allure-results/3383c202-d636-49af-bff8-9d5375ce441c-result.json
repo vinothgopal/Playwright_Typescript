@@ -1,0 +1,225 @@
+{
+  "uuid": "3383c202-d636-49af-bff8-9d5375ce441c",
+  "name": "Update booking",
+  "historyId": "539f7807c2b61f89c3f477cee7cdf264:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create request context",
+              "start": 1759166109215,
+              "uuid": "74d6f6b3-69c0-4621-b4b1-7e720a1d8299",
+              "stop": 1759166109227
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"request\"",
+          "start": 1759166109205,
+          "uuid": "16f6868a-9f23-40c7-8c6d-a9a1416ea11e",
+          "stop": 1759166109229
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"bookingService\"",
+          "start": 1759166109230,
+          "uuid": "2c5506e2-cb5e-4fcb-8f0b-4c8c6470d050",
+          "stop": 1759166109231
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"testData\"",
+          "start": 1759166109231,
+          "uuid": "642e278c-07f4-4f1e-9f2f-18c2f6d8e33f",
+          "stop": 1759166109232
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1759166109167,
+      "uuid": "18eb04a1-baa7-4737-a6ac-693ba9a97317",
+      "stop": 1759166109232
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1759166109238,
+      "name": "POST \"/booking\"",
+      "uuid": "c8837fd9-f62a-4127-b39e-ff23858b21e7",
+      "stop": 1759166110679
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1759166110684,
+      "name": "Expect \"toBeTruthy\"",
+      "uuid": "b183a2bf-16c6-4293-8d9f-e7927846f23a",
+      "stop": 1759166110685
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1759166110689,
+      "name": "POST \"/auth\"",
+      "uuid": "cfbed962-9957-4680-8ac4-95cdbf2b2427",
+      "stop": 1759166110930
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1759166110932,
+      "name": "Expect \"toBeTruthy\"",
+      "uuid": "97a7e8a5-e183-4559-b5d5-b8af8ac4299e",
+      "stop": 1759166110931
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1759166110937,
+      "name": "PUT \"/booking/1684\"",
+      "uuid": "7954ec61-fce4-4996-8b85-ec71abd8f64b",
+      "stop": 1759166111180
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1759166111182,
+      "name": "Expect \"toBeTruthy\"",
+      "uuid": "e4c5ed76-7912-4bbf-bf07-d8ff05e39e24",
+      "stop": 1759166111180
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1759166111185,
+      "name": "Expect \"toBeDefined\"",
+      "uuid": "b7ef6b98-1691-464a-b360-5425ff9d0b8b",
+      "stop": 1759166111184
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"testData\"",
+          "start": 1759166111187,
+          "uuid": "3fe20972-42ed-4723-828e-ec9fa9c0de9f",
+          "stop": 1759166111188
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"bookingService\"",
+          "start": 1759166111188,
+          "uuid": "bd3af564-f0e0-4c65-b2a9-66294b71a7e8",
+          "stop": 1759166111188
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"request\"",
+          "start": 1759166111189,
+          "uuid": "b60cfe78-a49e-4ba5-85ff-ded4477d831a",
+          "stop": 1759166111193
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1759166111186,
+      "uuid": "6f57bc60-1dec-41a6-a759-28a96759c96a",
+      "stop": 1759166111210
+    }
+  ],
+  "attachments": [
+    { "name": "stdout", "source": "ccbc692f-7104-4ba2-b7a1-827f1f594268-attachment.txt", "type": "text/plain" }
+  ],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "api_tests.api_e2eTest.spec.ts" },
+    { "name": "titlePath", "value": " > chromium > api_tests\\api_e2eTest.spec.ts" },
+    { "name": "host", "value": "LAPTOP-RBNKKBOV" },
+    { "name": "thread", "value": "pid-17340-worker-0" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "api_tests\\api_e2eTest.spec.ts" }
+  ],
+  "links": [],
+  "start": 1759166109164,
+  "testCaseId": "539f7807c2b61f89c3f477cee7cdf264",
+  "fullName": "api_tests/api_e2eTest.spec.ts:4:1",
+  "titlePath": ["api_tests", "api_e2eTest.spec.ts"],
+  "stop": 1759166111159
+}

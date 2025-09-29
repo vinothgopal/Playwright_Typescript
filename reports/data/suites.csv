@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","4277","Login and Logout Test","chromium","Mon Sep 29 22:45:09 IST 2025","passed","Mon Sep 29 22:45:13 IST 2025","","e2eTest.spec.ts","",""
+"","2326","Update booking","chromium","Mon Sep 29 22:49:27 IST 2025","passed","Mon Sep 29 22:49:30 IST 2025","","api_tests\api_e2eTest.spec.ts","",""
+"","898","validate API response against schema","chromium","Mon Sep 29 22:49:27 IST 2025","passed","Mon Sep 29 22:49:28 IST 2025","","api_tests\api_schema.spec.ts","",""

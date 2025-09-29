@@ -1,0 +1,75 @@
+{
+  "uid": "98d3104e051c652961429bf95fa0b5d6",
+  "name": "suites",
+  "children": [
+    {
+      "name": "chromium",
+      "children": [
+        {
+          "name": "e2eTest.spec.ts",
+          "children": [
+            {
+              "name": "Login and Logout Test",
+              "uid": "fd722e51712433d8",
+              "parentUid": "dc45b30e65af9722ada8298518c56284",
+              "status": "passed",
+              "time": { "start": 1759166109060, "stop": 1759166113337, "duration": 4277 },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 3,
+              "retriesStatusChange": false,
+              "parameters": ["chromium"],
+              "tags": ["sanity"]
+            }
+          ],
+          "uid": "dc45b30e65af9722ada8298518c56284"
+        },
+        {
+          "name": "api_tests\\api_schema.spec.ts",
+          "children": [
+            {
+              "name": "validate API response against schema",
+              "uid": "10b7b5432f7f1981",
+              "parentUid": "c6a6fab1d0b72d27fa056b26bcea0310",
+              "status": "passed",
+              "time": { "start": 1759166367776, "stop": 1759166368674, "duration": 898 },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 2,
+              "retriesStatusChange": false,
+              "parameters": ["chromium"],
+              "tags": ["api"]
+            }
+          ],
+          "uid": "c6a6fab1d0b72d27fa056b26bcea0310"
+        },
+        {
+          "name": "api_tests\\api_e2eTest.spec.ts",
+          "children": [
+            {
+              "name": "Update booking",
+              "uid": "785c78ac6b57b17d",
+              "parentUid": "d939e5bdfab43f4bfda22ea39f11396c",
+              "status": "passed",
+              "time": { "start": 1759166367778, "stop": 1759166370104, "duration": 2326 },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 2,
+              "retriesStatusChange": true,
+              "parameters": ["chromium"],
+              "tags": ["api"]
+            }
+          ],
+          "uid": "d939e5bdfab43f4bfda22ea39f11396c"
+        }
+      ],
+      "uid": "36c900977e1d8b81a2c6893cc82bfc01"
+    }
+  ]
+}

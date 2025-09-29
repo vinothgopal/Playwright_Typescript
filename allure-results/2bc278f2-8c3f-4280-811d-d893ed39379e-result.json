@@ -1,0 +1,165 @@
+{
+  "uuid": "2bc278f2-8c3f-4280-811d-d893ed39379e",
+  "name": "validate API response against schema",
+  "historyId": "cc9ab5c153c791e14e8a4962befd1873:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create request context",
+              "start": 1759166109224,
+              "uuid": "4f9de937-f27c-486f-8bdb-f6daa57be8fe",
+              "stop": 1759166109233
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"request\"",
+          "start": 1759166109217,
+          "uuid": "0a8ed012-7194-4a9e-a920-f0c320f5f270",
+          "stop": 1759166109236
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"schemaService\"",
+          "start": 1759166109237,
+          "uuid": "ec840aa5-fae1-4f21-886b-29a1fb51aac3",
+          "stop": 1759166109245
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"testData\"",
+          "start": 1759166109246,
+          "uuid": "8418b684-0427-4660-89a2-8697faf28a40",
+          "stop": 1759166109246
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1759166109174,
+      "uuid": "dbafcb27-115f-4bd3-a86b-64c6601dec3a",
+      "stop": 1759166109246
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1759166109250,
+      "name": "GET \"/json\"",
+      "uuid": "0f553b30-35ee-48e5-bcaa-df9515ec5705",
+      "stop": 1759166109843
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1759166109877,
+      "name": "Expect \"toBeTruthy\"",
+      "uuid": "102bcea5-1c3d-4c8c-9bb8-a63357dc9969",
+      "stop": 1759166109878
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"testData\"",
+          "start": 1759166109880,
+          "uuid": "0bfbf5a6-378e-4a17-9529-7689f64870fb",
+          "stop": 1759166109881
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"schemaService\"",
+          "start": 1759166109882,
+          "uuid": "2ef3b4c7-ef21-4a0c-9d8d-cc1af6412174",
+          "stop": 1759166109882
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"request\"",
+          "start": 1759166109883,
+          "uuid": "9c5b11d2-88a7-448a-9a09-a1cd2ae767b1",
+          "stop": 1759166109889
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1759166109879,
+      "uuid": "f4489e7f-5188-4275-93b1-aa93ef7d8c13",
+      "stop": 1759166109902
+    }
+  ],
+  "attachments": [
+    { "name": "stdout", "source": "bd956f11-7fbe-4495-a688-d71df95ffa73-attachment.txt", "type": "text/plain" }
+  ],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "api_tests.api_schema.spec.ts" },
+    { "name": "titlePath", "value": " > chromium > api_tests\\api_schema.spec.ts" },
+    { "name": "host", "value": "LAPTOP-RBNKKBOV" },
+    { "name": "thread", "value": "pid-17340-worker-1" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "api_tests\\api_schema.spec.ts" }
+  ],
+  "links": [],
+  "start": 1759166109168,
+  "testCaseId": "cc9ab5c153c791e14e8a4962befd1873",
+  "fullName": "api_tests/api_schema.spec.ts:3:1",
+  "titlePath": ["api_tests", "api_schema.spec.ts"],
+  "stop": 1759166109844
+}

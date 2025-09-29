@@ -1,0 +1,222 @@
+{
+  "uid": "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name": "timeline",
+  "children": [
+    {
+      "name": "LAPTOP-RBNKKBOV",
+      "children": [
+        {
+          "name": "pid-5144-worker-1",
+          "children": [
+            {
+              "name": "validate API response against schema",
+              "uid": "10b7b5432f7f1981",
+              "parentUid": "7ab2427b7f67200bed0073547b2b162d",
+              "status": "passed",
+              "time": { "start": 1759166367776, "stop": 1759166368674, "duration": 898 },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 2,
+              "retriesStatusChange": false,
+              "parameters": ["chromium"],
+              "tags": ["api"]
+            }
+          ],
+          "uid": "7ab2427b7f67200bed0073547b2b162d"
+        },
+        {
+          "name": "pid-17340-worker-1",
+          "children": [
+            {
+              "name": "validate API response against schema",
+              "uid": "44562cb5d961d4f9",
+              "parentUid": "2965646b185a9020842da1f4cc5e61f9",
+              "status": "passed",
+              "time": { "start": 1759166109168, "stop": 1759166109844, "duration": 676 },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 0,
+              "retriesStatusChange": false,
+              "parameters": ["chromium"],
+              "tags": []
+            }
+          ],
+          "uid": "2965646b185a9020842da1f4cc5e61f9"
+        },
+        {
+          "name": "pid-5144-worker-0",
+          "children": [
+            {
+              "name": "Update booking",
+              "uid": "785c78ac6b57b17d",
+              "parentUid": "b49d94e561e5663b7a3b1d98bedf11f8",
+              "status": "passed",
+              "time": { "start": 1759166367778, "stop": 1759166370104, "duration": 2326 },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 2,
+              "retriesStatusChange": true,
+              "parameters": ["chromium"],
+              "tags": ["api"]
+            }
+          ],
+          "uid": "b49d94e561e5663b7a3b1d98bedf11f8"
+        },
+        {
+          "name": "pid-1416-worker-0",
+          "children": [
+            {
+              "name": "Login and Logout Test",
+              "uid": "de5090f56956bcf3",
+              "parentUid": "26f489d739d9c9d85b17df4cc48f8d91",
+              "status": "passed",
+              "time": { "start": 1759054082126, "stop": 1759054086812, "duration": 4686 },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 0,
+              "retriesStatusChange": false,
+              "parameters": ["chromium"],
+              "tags": ["sanity"]
+            }
+          ],
+          "uid": "26f489d739d9c9d85b17df4cc48f8d91"
+        },
+        {
+          "name": "pid-17340-worker-0",
+          "children": [
+            {
+              "name": "Update booking",
+              "uid": "43596856b3363416",
+              "parentUid": "d6d2013ad826edafb833583f1c04a91c",
+              "status": "passed",
+              "time": { "start": 1759166109164, "stop": 1759166111159, "duration": 1995 },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 0,
+              "retriesStatusChange": false,
+              "parameters": ["chromium"],
+              "tags": []
+            }
+          ],
+          "uid": "d6d2013ad826edafb833583f1c04a91c"
+        },
+        {
+          "name": "pid-7616-worker-2",
+          "children": [
+            {
+              "name": "Login and Logout Test",
+              "uid": "d674508778b8b7af",
+              "parentUid": "8549dcb73bced560b418a73980a983a9",
+              "status": "passed",
+              "time": { "start": 1759166044177, "stop": 1759166052695, "duration": 8518 },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 0,
+              "retriesStatusChange": false,
+              "parameters": ["chromium"],
+              "tags": ["sanity"]
+            }
+          ],
+          "uid": "8549dcb73bced560b418a73980a983a9"
+        },
+        {
+          "name": "pid-17340-worker-2",
+          "children": [
+            {
+              "name": "Login and Logout Test",
+              "uid": "fd722e51712433d8",
+              "parentUid": "a6f8af72fef0ba9257941017b2395d5c",
+              "status": "passed",
+              "time": { "start": 1759166109060, "stop": 1759166113337, "duration": 4277 },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 3,
+              "retriesStatusChange": false,
+              "parameters": ["chromium"],
+              "tags": ["sanity"]
+            }
+          ],
+          "uid": "a6f8af72fef0ba9257941017b2395d5c"
+        },
+        {
+          "name": "pid-7616-worker-1",
+          "children": [
+            {
+              "name": "validate API response against schema",
+              "uid": "2df9fbef33e4f2cb",
+              "parentUid": "207e43132c32c746e17cc2cf7673f472",
+              "status": "passed",
+              "time": { "start": 1759166044253, "stop": 1759166045424, "duration": 1171 },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 0,
+              "retriesStatusChange": false,
+              "parameters": ["chromium"],
+              "tags": []
+            }
+          ],
+          "uid": "207e43132c32c746e17cc2cf7673f472"
+        },
+        {
+          "name": "pid-7616-worker-0",
+          "children": [
+            {
+              "name": "Update booking",
+              "uid": "e24d6207f446d183",
+              "parentUid": "6b626ab237dcc6992dbdd9045f7da4b9",
+              "status": "failed",
+              "time": { "start": 1759166044252, "stop": 1759166044301, "duration": 49 },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 0,
+              "retriesStatusChange": false,
+              "parameters": ["chromium"],
+              "tags": []
+            }
+          ],
+          "uid": "6b626ab237dcc6992dbdd9045f7da4b9"
+        },
+        {
+          "name": "pid-5628-worker-0",
+          "children": [
+            {
+              "name": "Login and Logout Test",
+              "uid": "c88db705683cb67c",
+              "parentUid": "ff9ba29a1f576c77778c8978f2d78fc4",
+              "status": "passed",
+              "time": { "start": 1759054054692, "stop": 1759054064159, "duration": 9467 },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 0,
+              "retriesStatusChange": false,
+              "parameters": ["chromium"],
+              "tags": ["sanity"]
+            }
+          ],
+          "uid": "ff9ba29a1f576c77778c8978f2d78fc4"
+        }
+      ],
+      "uid": "70aa498d417693dd9aa777687814d372"
+    }
+  ]
+}

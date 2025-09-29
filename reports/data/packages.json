@@ -1,0 +1,75 @@
+{
+  "uid": "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name": "packages",
+  "children": [
+    {
+      "name": "e2eTest.spec.ts",
+      "children": [
+        {
+          "name": "Login and Logout Test",
+          "uid": "fd722e51712433d8",
+          "parentUid": "a47d1bf15854b7b14355b35a813571f5",
+          "status": "passed",
+          "time": { "start": 1759166109060, "stop": 1759166113337, "duration": 4277 },
+          "flaky": false,
+          "newFailed": false,
+          "newPassed": false,
+          "newBroken": false,
+          "retriesCount": 3,
+          "retriesStatusChange": false,
+          "parameters": ["chromium"],
+          "tags": ["sanity"]
+        }
+      ],
+      "uid": "e2eTest.spec.ts"
+    },
+    {
+      "name": "api_tests",
+      "children": [
+        {
+          "name": "api_schema.spec.ts",
+          "children": [
+            {
+              "name": "validate API response against schema",
+              "uid": "10b7b5432f7f1981",
+              "parentUid": "b6959332c5058f60aa59b0272444c576",
+              "status": "passed",
+              "time": { "start": 1759166367776, "stop": 1759166368674, "duration": 898 },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 2,
+              "retriesStatusChange": false,
+              "parameters": ["chromium"],
+              "tags": ["api"]
+            }
+          ],
+          "uid": "api_schema.spec.ts"
+        },
+        {
+          "name": "api_e2eTest.spec.ts",
+          "children": [
+            {
+              "name": "Update booking",
+              "uid": "785c78ac6b57b17d",
+              "parentUid": "a609aa29a5177f8919e1d1f3dd140cd7",
+              "status": "passed",
+              "time": { "start": 1759166367778, "stop": 1759166370104, "duration": 2326 },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 2,
+              "retriesStatusChange": true,
+              "parameters": ["chromium"],
+              "tags": ["api"]
+            }
+          ],
+          "uid": "api_e2eTest.spec.ts"
+        }
+      ],
+      "uid": "d4ea9e9d6126b9967ba3001152864a37"
+    }
+  ]
+}
